@@ -1,0 +1,29 @@
+{
+  "name": "search-in-huge-file",
+  "version": "1.0.0",
+  "description": "Search for a hashed string in a huge file",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+		"run": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoudronViande24/search-in-huge-file.git"
+  },
+  "author": "GoudronViande24",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/GoudronViande24/search-in-huge-file/issues"
+  },
+  "homepage": "https://github.com/GoudronViande24/search-in-huge-file#readme",
+  "dependencies": {
+    "event-stream": "^4.0.1",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/event-stream": "^4.0.0",
+    "@types/prompt-sync": "^4.1.1"
+  }
+}
